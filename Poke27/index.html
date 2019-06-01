@@ -9,6 +9,7 @@
 <body ng-controller="pokedex">
 	<!--cuadro pokemons-->
 	<div class="cuadro" ng-repeat="poke in pokedexB">
+		<img src="{{poke.data.sprites.front_default}}">
 		<p class="cuadro">{{poke.data.name}}</p>
 	</div>
 	<!--enlaces angular--->
