@@ -1,0 +1,25 @@
+body {
+	background: url(http://fondosdepantalla.biz/images/wallpapers/126438-300633.jpeg) no-repeat fixed; 
+	-webkit-background-size: cover;
+}
+.cuadro{
+	border:1px solid white;
+	color: white;
+	font-family:castellar;
+	font-size:30px;
+	text-align: center;
+	opacity: red;
+}
+
+p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+h1 {
+	text-align: center;
+	font-family: algerian;
+	font-size: 80px;
+	color:white;
+	background-color: red;
+	padding: 0 !important;
+}

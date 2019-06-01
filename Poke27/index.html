@@ -3,17 +3,32 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<title>Pokemon</title>
-	<link rel="stylesheet" href="style.css">
+	<!--CSS BOOTSTRAP-->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="https://davidquevedo.neocities.org/imagenes/PokeLogo2.png">
 </head>
 <body ng-controller="pokedex">
-	<!--cuadro pokemons-->
-	<div class="cuadro" ng-repeat="poke in pokedexB">
-		<img src="{{poke.data.sprites.front_default}}">
-		<p class="cuadro">{{poke.data.name}}</p>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>POKEDEX</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3" ng-repeat="poke in pokedexB">
+				<!--cuadro pokemons-->
+				<div class="cuadro">
+					<img src="{{poke.data.sprites.front_default}}">
+					<p class="cuadro">{{poke.data.name}}</p>
+				</div>
+			</div>
+		</div>
 	</div>
+	<!--ENLACE BOOTSTRAP-->
+	<script src ="lib/bootstrap/js/bootstrap.js"></script>
 	<!--enlaces angular--->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-	<script src="script.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
