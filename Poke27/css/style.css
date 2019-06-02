@@ -10,6 +10,8 @@ body {
 	text-align: center;
 	opacity: red;
 	background-color: #6384b3;
+	padding: 1px;
+	margin: 7px;
 }
 
 p {
@@ -29,4 +31,8 @@ h1 {
 	height: 300px;
 	background-color: #b8e9c0;
 	border:2px solid black;
+}
+.jp {
+	background-color: #684949;
+	border: 1px solid #684949;
 }
