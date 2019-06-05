@@ -1,7 +1,7 @@
 var pokemon= angular.module("pokemon",[])
 pokemon.controller("pokedex",function($scope,$rootScope,$http){
 	$scope.pokedexB= [];
-	for (var i = 0; i < 100; i++) {
+	for (var i = 0; i < 900; i++) {
 		$http({
 			method:"GET",
 			url:"https://pokeapi.co/api/v2/pokemon/"+i

@@ -12,6 +12,7 @@ body {
 	background-color: #6384b3;
 	padding: 1px;
 	margin: 7px;
+	box-shadow: 5px -9px 3px #e6f0b6;
 }
 
 p {
@@ -35,4 +36,7 @@ h1 {
 .jp {
 	background-color: #684949;
 	border: 1px solid #684949;
+}
+.spd {
+	padding: 0 !important;
 }
