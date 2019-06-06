@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	background: #684949; 
+	-webkit-background-size: cover;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--colorPrimary: #183661;
+	--colorAlt: #1c4b82;
+	--colorThree: #dd6b4d;
+	--radius: 15px;
+	--fontFamily: 'Roboto', sans-serif;
+}
+.boxMain,
+.boxRight,
+form{
+	display: flex;
+	justify-content: center;;
+	align-items: center;
+}
+.boxMain{
+	width: 100%;
+	background: #684949;
+}
+.containerBox{
+	width: 600px;
+	height: 400px;
+	background-color: var(--colorPrimary);
+	border-radius: var(--radius);
+	display: flex;
+}
+.boxLeft{
+	width: 60%;
+	height: 400px;
+	background: #6384b3;
+	border-top-left-radius: var(--radius);
+	border-bottom-left-radius: var(--radius);
+}
+.boxLeftAlt{
+	width: 60%;
+	height: 400px;
+	background: #b8e9c0;
+	border-top-left-radius: var(--radius);
+	border-bottom-left-radius: var(--radius);
+	display: none;
+}
+.boxRight{
+	width: 40%;
+	height: 400px;
+	background: #e6f0b6;
+	border-top-right-radius: var(--radius);
+	border-bottom-right-radius: var(--radius);
+	flex-direction: column;
+}
+button{
+	padding: 10px 20px;
+	font-family: var(--fontFamily);
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.titleMain{
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+.titleSecond{
+	font-size: 35px;
+	color: #000000;
+	margin-top: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+form{
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: var(--radius);
+	border-bottom-left-radius: var(--radius);
+	flex-direction: column;
+}
+input{
+	width: 70%;
+	height: 35px;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin: 5px 0;
+	font-family: var(--fontFamily);
+}
+.buttonSent{
+	width: 40%;
+	height: 40px;
+	margin: 5px 0;
+	font-family: var(--fontFamily);
+	background-color: #FFFFFF;
+	color: #000000;
+	border: none;
+	cursor: pointer;
+}
+.buttonSentTwo{
+	width: 40%;
+	height: 40px;
+	margin: 5px 0;
+	font-family: var(--fontFamily);
+	background-color: #FFFFFF;
+	color: #000000;
+	border: none;
+	cursor: pointer;
+}
+.spd {
+	padding: 0 !important;
+}
+h1 {
+	text-align: center;
+	font-family: algerian;
+	font-size: 80px;
+	color:white;
+	background-color: #6384b3;
+	padding: 0 !important;
+}
+.cc {
+	text-align: center;
+	border: 1px solid black;
+	background-color: #6384b3;
+	font-family: algerian;
+	font-size:30px;
+	color: #FFFFFF;
+}
+.ww {
+	color: #FFFFFF;
+}
+.aa {
+	background: #b8e9c0;	
+}

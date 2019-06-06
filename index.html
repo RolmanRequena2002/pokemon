@@ -16,9 +16,15 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-3 clr" ng-repeat="poke in pokedexB">
+			<div class="col-md-6 cc">ROLMAN ALEXANDER REQUENA PELICÓ</div>
+			<div class="col-md-2 cc"><a class="ww" href="index.html">INICIO</a></div>
+			<div class="col-md-4 cc"><a class="ww" href="templates/inicio.html">INGRESAR O REGISTRATE</a></div>
+		</div>
+		<div class="row"><br></div>
+		<div class="row">
+			<div class="col-md-3" ng-repeat="poke in pokedexB">
 				<!--cuadro pokemons-->
-				<div class="cuadro">
+				<div class="cuadro cdr">
 					<img class="im" src="{{poke.data.sprites.front_default}}">
 					<p class="cuadro">{{poke.data.name}}</p>
 				</div>
@@ -27,7 +33,7 @@
 	</div>
 	<!--ENLACE BOOTSTRAP-->
 	<script src ="lib/bootstrap/js/bootstrap.js"></script>
-	<!--enlaces angular--->
+	<!--enlaces angular-->
 	<script src="lib/angular/angular.js"></script>
 	<script src="js/script.js"></script>
 </body>
